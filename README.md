@@ -2,7 +2,7 @@
 
 # ATtiny1617 Core Independent Nightlight Using Configurable CustomLogic
 
-![System Diagram](images/diagram.png)
+<img src="images/diagram.png" alt="Diagram" width="800"/>
 
 This example shows the use of Core Independent Peripherals (CIP), how to use theConfigurable Custom Logic (CCL) to filter inputs from different sensors, and how to create specificcommunication protocols using a Microchip AVR® device, a Passive InfraRed sensor (PIR), Ambient LightSensor, and 16 addressable RGB LEDs. Many peripherals are configured to work together, independentof the CPU.
 
