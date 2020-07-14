@@ -1,41 +1,54 @@
-<!-- Please do not change this html logo with link -->
 <a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
-# Update the title for attiny1617-core-independent-night-light-using-ccl-studio here
+# ATtiny1617 Core Independent Nightlight Using Configurable CustomLogic
 
-<!-- This is where the introduction to the example goes, including mentioning the peripherals used -->
+![System Diagram](images/diagram.png)
+
+This example shows the use of Core Independent Peripherals (CIP), how to use theConfigurable Custom Logic (CCL) to filter inputs from different sensors, and how to create specificcommunication protocols using a Microchip AVR® device, a Passive InfraRed sensor (PIR), Ambient LightSensor, and 16 addressable RGB LEDs. Many peripherals are configured to work together, independentof the CPU.
+
+The example is explained in more details in the application note [AN2387](#Related-Documentation)
+
+[![Night Light](https://img.youtube.com/vi/80RXi1mk8t4/0.jpg)](https://www.youtube.com/watch?v=80RXi1mk8t4)
 
 ## Related Documentation
 
-<!-- Any information about an application note or tech brief can be linked here. Use unbreakable links!
-     In addition a link to the device family landing page and relevant peripheral pages as well:
-     - [AN3381 - Brushless DC Fan Speed Control Using Temperature Input and Tachometer Feedback](https://microchip.com/00003381/)
-     - [PIC18F-Q10 Family Product Page](https://www.microchip.com/design-centers/8-bit/pic-mcus/device-selection/pic18f-q10-product-family) -->
+- [AN2387 - Core Independent Nightlight Using Configurable CustomLogic on ATtiny1617](https://www.microchip.com//wwwAppNotes/AppNotes.aspx?appnote=en595063)
+- [ATtiny1617 Product Page](https://www.microchip.com/wwwproducts/en/ATtiny1617)
+- [ATtiny1617 datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny1614-16-17-DataSheet-DS40002204A.pdf)
 
 ## Software Used
 
-<!-- All software used in this example must be listed here. Use unbreakable links!
-     - MPLAB® X IDE 5.30 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
-     - MPLAB® XC8 2.10 or a newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
-     - MPLAB® Code Configurator (MCC) 3.95.0 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-     - MPLAB® Code Configurator (MCC) Device Libraries PIC10 / PIC12 / PIC16 / PIC18 MCUs [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-     - Microchip PIC18F-Q Series Device Support (1.4.109) or newer [(packs.download.microchip.com/)](https://packs.download.microchip.com/) -->
+- [Atmel Studio 7.0.2397 or later](https://www.microchip.com/mplab/avr-support/atmel-studio-7)
+- ATtiny_DFP 1.5.315 or later
+- AVR/GNU C Compiler 5.4.0 (buildt into studio)
 
 ## Hardware Used
 
-<!-- All hardware used in this example must be listed here. Use unbreakable links!
-     - PIC18F47Q10 Curiosity Nano [(DM182029)](https://www.microchip.com/Developmenttools/ProductDetails/DM182029)
-     - Curiosity Nano Base for Click boards™ [(AC164162)](https://www.microchip.com/Developmenttools/ProductDetails/AC164162)
-     - POT Click board™ [(MIKROE-3402)](https://www.mikroe.com/pot-click) -->
+-  [ATtiny1617 QFN](https://www.microchip.com/wwwproducts/en/ATtiny1617)
+-  [STK600](https://www.microchip.com/developmenttools/ProductDetails/ATSTK600)
+-  [STK600 Routing card](https://www.microchip.com/DevelopmentTools/ProductDetails/atstk600-rc103)
+-  [STK600 QFN24](https://www.microchip.com/developmenttools/ProductDetails/ATSTK600-SC62)
+- Passive Infrared Detector (PIR)
+- Ambient Light Sensor - [TEMT6000](http://www.vishay.com/docs/81579/temt6000.pdf) 
+- Intelligent Control LED we use a WS2812B-16 board 
 
 ## Setup
 
-<!-- Explain how to connect hardware and set up software. Depending on complexity, step-by-step instructions and/or tables and/or images can be used -->
+![Circuit](images/circuit.png)
+
+*   Color Button Connected to `PB0`
+*   Intensity Button Connected to `PB1`
+*   Ambient Light Sensor Connected to `PA7`
+*   PIR Sensor Connected to `PB3`
+*   RGB LED Connected to `PC1`
 
 ## Operation
 
-<!-- Explain how to operate the example. Depending on complexity, step-by-step instructions and/or tables and/or images can be used -->
+1. Open `CoreIndependentNightLightusingCCL.atsln` in Atmel Studio
+2. Connect the ATtiny1617 with your programmer of choice, we used a STK600.
+3. In your menu bar in Atmel Studio go to `Debug->Start Without Debugging` or press `CTRL + ALT + F5`
+4. Press one of the buttons or interact with the sensors to wake the AVR and start the processing.
 
-## Summary
+## Conclusion
 
-<!-- Summarize what the example has shown -->
+We have shown how you can make a core independent nightlight using configurable customlogic. This is just one of the many usecases of configurable customlogic.
