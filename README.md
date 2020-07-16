@@ -20,7 +20,7 @@ The example is explained in more details in the application note [AN2387](#Relat
 
 - [Atmel Studio 7.0.2397 or later](https://www.microchip.com/mplab/avr-support/atmel-studio-7)
 - ATtiny_DFP 1.5.315 or later
-- AVR/GNU C Compiler 5.4.0 (buildt into studio)
+- AVR/GNU C Compiler 5.4.0 (built into studio)
 
 ## Hardware Used
 
@@ -44,9 +44,9 @@ The example is explained in more details in the application note [AN2387](#Relat
 
 ## Operation
 
-1. Open `CoreIndependentNightLightusingCCL.atsln` in Atmel Studio
+1. Open `CoreIndependentNightLightusingCCL.atsln` in Atmel Studio.
 2. Connect the ATtiny1617 with your programmer of choice, we used a STK600.
-3. In your menu bar in Atmel Studio go to `Debug->Start Without Debugging` or press `CTRL + ALT + F5`
+3. In your menu bar in Atmel Studio go to `Debug->Start Without Debugging` or press `CTRL + ALT + F5`.
 4. Press one of the buttons or interact with the sensors to wake the AVR and start the processing.
 
 ## Conclusion
