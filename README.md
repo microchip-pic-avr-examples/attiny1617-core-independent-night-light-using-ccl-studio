@@ -44,7 +44,7 @@ The example is explained in more details in the application note [AN2387](https:
 ## Operation
 
 1. Download the zip file or clone the example to get the source code.
-2. Open `CoreIndependentNightLightusingCCL.atsln` in Atmel Studio.
+2. Open `attiny1617-core-independent-night-light-using-ccl-studio.atsln` in Atmel Studio.
 3. Connect the ATtiny1617 with your programmer of choice, we used a STK600.
 4. In your menu bar in Atmel Studio go to `Debug->Start Without Debugging` or press `CTRL + ALT + F5`.
 5. Press one of the buttons or interact with the sensors to wake the AVR and start the processing.
