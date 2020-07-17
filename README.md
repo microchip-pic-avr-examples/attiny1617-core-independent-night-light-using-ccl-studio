@@ -6,7 +6,7 @@
 
 This example shows the use of Core Independent Peripherals (CIP), how to use theConfigurable Custom Logic (CCL) to filter inputs from different sensors, and how to create specificcommunication protocols using a Microchip AVR® device, a Passive InfraRed sensor (PIR), Ambient LightSensor, and 16 addressable RGB LEDs. Many peripherals are configured to work together, independentof the CPU.
 
-The example is explained in more details in the application note [AN2387](#Related-Documentation)
+The example is explained in more details in the application note [AN2387](https://www.microchip.com//wwwAppNotes/AppNotes.aspx?appnote=en595063)
 
 [![Night Light](https://img.youtube.com/vi/80RXi1mk8t4/0.jpg)](https://www.youtube.com/watch?v=80RXi1mk8t4)
 
@@ -14,7 +14,6 @@ The example is explained in more details in the application note [AN2387](#Relat
 
 - [AN2387 - Core Independent Nightlight Using Configurable CustomLogic on ATtiny1617](https://www.microchip.com//wwwAppNotes/AppNotes.aspx?appnote=en595063)
 - [ATtiny1617 Product Page](https://www.microchip.com/wwwproducts/en/ATtiny1617)
-- [ATtiny1617 datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny1614-16-17-DataSheet-DS40002204A.pdf)
 
 ## Software Used
 
@@ -44,10 +43,11 @@ The example is explained in more details in the application note [AN2387](#Relat
 
 ## Operation
 
-1. Open `CoreIndependentNightLightusingCCL.atsln` in Atmel Studio.
-2. Connect the ATtiny1617 with your programmer of choice, we used a STK600.
-3. In your menu bar in Atmel Studio go to `Debug->Start Without Debugging` or press `CTRL + ALT + F5`.
-4. Press one of the buttons or interact with the sensors to wake the AVR and start the processing.
+1. Download the zip file or clone the example to get the source code.
+2. Open `CoreIndependentNightLightusingCCL.atsln` in Atmel Studio.
+3. Connect the ATtiny1617 with your programmer of choice, we used a STK600.
+4. In your menu bar in Atmel Studio go to `Debug->Start Without Debugging` or press `CTRL + ALT + F5`.
+5. Press one of the buttons or interact with the sensors to wake the AVR and start the processing.
 
 ## Conclusion
 
