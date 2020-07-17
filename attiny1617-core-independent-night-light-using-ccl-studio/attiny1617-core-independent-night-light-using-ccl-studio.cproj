@@ -12,9 +12,9 @@
     <OutputFileName>$(MSBuildProjectName)</OutputFileName>
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
-    <AssemblyName>CoreIndependentNightLightusingCCL</AssemblyName>
-    <Name>CoreIndependentNightLightusingCCL</Name>
-    <RootNamespace>CoreIndependentNightLightusingCCL</RootNamespace>
+    <AssemblyName>attiny1617-core-independent-night-light-using-ccl-studio</AssemblyName>
+    <Name>attiny1617-core-independent-night-light-using-ccl-studio</Name>
+    <RootNamespace>attiny1617-core-independent-night-light-using-ccl-studio</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
