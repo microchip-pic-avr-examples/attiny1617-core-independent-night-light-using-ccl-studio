@@ -1,10 +1,10 @@
 <a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
-# ATtiny1617 Core Independent Nightlight Using Configurable CustomLogic
+# ATtiny1617 Core Independent Nightlight Using Configurable Custom Logic
 
 <a><img src="images/diagram.png" alt="diagram" width="800"/></a>
 
-This example shows the use of Core Independent Peripherals (CIP), how to use theConfigurable Custom Logic (CCL) to filter inputs from different sensors, and how to create specificcommunication protocols using a Microchip AVR® device, a Passive InfraRed sensor (PIR), Ambient LightSensor, and 16 addressable RGB LEDs. Many peripherals are configured to work together, independentof the CPU.
+This example shows the use of Core Independent Peripherals (CIP), how to use the Configurable Custom Logic (CCL) to filter inputs from different sensors, and how to create specific communication protocols using a Microchip AVR® device, a Passive Infra Red sensor (PIR), Ambient Light Sensor, and 16 addressable RGB LEDs. Many peripherals are configured to work together, independent of the CPU.
 
 The example is explained in more details in the application note [AN2387](https://www.microchip.com//wwwAppNotes/AppNotes.aspx?appnote=en595063)
 
@@ -12,7 +12,7 @@ The example is explained in more details in the application note [AN2387](https:
 
 ## Related Documentation
 
-- [AN2387 - Core Independent Nightlight Using Configurable CustomLogic on ATtiny1617](https://www.microchip.com//wwwAppNotes/AppNotes.aspx?appnote=en595063)
+- [AN2387 - Core Independent Nightlight Using Configurable Custom Logic on ATtiny1617](https://www.microchip.com//wwwAppNotes/AppNotes.aspx?appnote=en595063)
 - [ATtiny1617 Product Page](https://www.microchip.com/wwwproducts/en/ATtiny1617)
 
 ## Software Used
@@ -51,4 +51,4 @@ The example is explained in more details in the application note [AN2387](https:
 
 ## Conclusion
 
-We have shown how you can make a core independent nightlight using configurable customlogic. This is just one of the many usecases of configurable customlogic.
+We have shown how you can make a core independent nightlight using configurable custom logic. This is just one of the many use cases of configurable custom logic.
