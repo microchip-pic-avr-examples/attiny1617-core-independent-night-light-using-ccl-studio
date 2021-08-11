@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.attiny1617-core-independent-night-light-using-ccl-studio",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "displayName": "Core Independent Nightlight Using Configurable Custom Logic",
         "projectName": "attiny1617-core-independent-night-light-using-ccl-studio",
         "shortDescription": "This example shows the use of Core Independent Peripherals (CIP), how to use the Configurable Custom Logic (CCL) to filter inputs from different sensors, and how to create specific communication protocols using a Microchip AVR® device, a Passive Infra Red sensor (PIR), Ambient Light Sensor, and 16 addressable RGB LEDs. Many peripherals are configured to work together, independent of the CPU.",
@@ -14,7 +14,7 @@
         },
         "compiler": [
             {
-                "name": "AVR-GCC",
+                "name": "AVR GCC",
                 "semverRange": "^5.4.0"
             }
         ],
@@ -76,8 +76,13 @@
             "DAC"
         ],
         "keywords": [
-            "",
-            ""
+            "Sensor",
+            "EEDATA",
+            "START",
+            "Sleep",
+            "LED",
+            "INT",
+            "CIP"
         ],
         "additionalData": {
             "longDescription": {
